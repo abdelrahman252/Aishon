@@ -1,0 +1,351 @@
+.body {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weigt: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.fa-star {
+    font-size: 10px;
+    color: #e3c01c;
+}
+
+.cart_close i {
+    padding-left: 30px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    transition: all 0.2s linear;
+}
+
+.rate i {
+    padding-right: 3px;
+    padding-top: 5px;
+}
+
+.bb {
+    margin-bottom: 40px
+}
+
+.bb img {
+    width: 90px;
+    height: auto;
+}
+
+.products .cart_total-control {
+    font-family: "Montserrat", sans-serif;
+}
+
+.re {
+    padding: 20px;
+    color: white;
+    background-color: #868686 !important;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+
+.re:hover {
+    padding: 20px;
+    color: #ca1515;
+    background-color: #c5c5c5 !important;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px #ca1515;
+}
+
+.spa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.aaa:hover {
+    box-shadow: 0px 0px 5px 5px #ca1515;
+    color: #ca1515 !important;
+    transition: all 0.2s linear;
+}
+
+.aaaa:hover {
+    transition: all 0.2s linear;
+    transform: translateY(15px)
+}
+
+.aa:hover {
+    transition: all 0.2s linear;
+    padding: 20px;
+    color: #000000 !important;
+    background-color: transparent !important;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px #ca1515;
+}
+
+.dec-qtybtn {
+    font-size: 14px;
+    color: #666;
+    cursor: pointer;
+    width: 12px;
+    line-height: 46px;
+    padding-right: 20px;
+}
+
+.inc-qtybtn {
+    font-size: 14px;
+    color: #666;
+    padding-left: 20px;
+    cursor: pointer;
+    width: 12px;
+    line-height: 46px;
+}
+
+.rowww {
+    margin-top: 80px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.cart-btnn a {
+    font-size: 14px;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 30px 12px;
+    background: #f5f5f5;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cart-btnn h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #111;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 13px;
+    margin-right: 30px;
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.cart-btnn form {
+    position: relative;
+    width: 370px;
+    display: inline-block;
+}
+
+.cart-btnn form input {
+    height: 48px;
+    width: 80%;
+    border: 1px solid #444;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 0px;
+    font-size: 14px;
+    color: #444;
+    overflow: visible;
+}
+
+.cart-btnn form button {
+    position: absolute;
+    right: 75px;
+    top: 3px;
+    font-size: 14px;
+    color: #fff;
+    background: #ca1515;
+    cursor: pointer;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    overflow: visible;
+    transition: all 0.6s ease-in-out;
+}
+
+.cart-btnn form button:hover {
+    transform: translateX(60px);
+}
+
+.cart-total {
+    font-family: "Montserrat", sans-serif;
+    width: 25%;
+    background: #f5f5f5;
+    padding: 40px;
+}
+
+.cart-total h6 {
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    margin-left: 20px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.cart-total ul {
+    display: block;
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.cart-total ul li {
+    font-size: 16px;
+    color: #111;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.cart-total ul li span {
+    color: #ca1515;
+    float: right;
+    font-size: 16px;
+}
+
+.cart-total a {
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    text-align: center;
+    padding: 12px 0 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background: #ca1515;
+    cursor: pointer;
+}
+
+.col-md-6 ul li a {
+    font-size: 16px;
+    color: #666666;
+    line-height: 30px;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+.col-md-6 ul li a:hover {
+    color: #ca1515;
+}
+
+.news .two .links form {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.news .two .links form input {
+    height: 60px;
+    width: 290px;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #666;
+    outline: none;
+}
+
+.news .two .links form button {
+    position: absolute;
+    top: 6px;
+    right: -30px;
+    border: none;
+    background-color: #ca1515;
+    height: 50px;
+    width: 120px;
+    border-radius: 50px;
+    padding-left: 16px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+.news .two .links form button:hover {
+    transform: translateX(60px);
+}
+
+.news .two .links a {
+    background-color: #c2c2c2;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 2px;
+    transition: all 0.2s linear;
+}
+
+.news .two .links a:hover {
+    color: #ca1515;
+}
+
+.foot {
+    text-align: center;
+    color: #666666;
+}
+
+.foot a {
+    text-decoration: none;
+    color: #000000 !important;
+    transition: all 0.2s linear;
+}
+
+.foot a:hover {
+    color: #ca1515 !important;
+}
+
+.foot .fa {
+    color: red;
+}
+
+.home {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.home i {
+    margin-right: 10px;
+}
+
+.home a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    position: relative;
+    font-weight: bolder;
+    transition: all 0.2s linear;
+}
+
+.home a:hover {
+    color: #ca1515;
+}
+
+.home span {
+    color: rgb(29, 29, 29);
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.home .sp {
+    margin-left: 20px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}

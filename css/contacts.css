@@ -1,0 +1,134 @@
+.contactForm .label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.contactForm .form-control {
+    border: none;
+}
+
+#map {
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+    #map {
+        height: 300px;
+    }
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.contact-wrap {
+    background: #e8edf0;
+    height: 100%;
+}
+
+.dbox {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    .dbox {
+        margin-bottom: 0;
+        padding: 0;
+    }
+}
+
+.dbox p {
+    margin-bottom: 20px;
+}
+
+.dbox p span {
+    font-weight: 500;
+    color: #000;
+}
+
+.dbox p a {
+    color: #2553b8;
+}
+
+.dbox .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #2553b8;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.dbox .icon span {
+    font-size: 20px;
+    color: #fff;
+}
+
+.dbox .text {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-text {
+    display: block;
+    margin-top: 0.25rem;
+}
+
+.submitting {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    display: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #2553b8;
+}
+
+#contactForm .form-control {
+    font-size: 16px;
+}
+
+.home {
+    font-family: "Montserrat", sans-serif !important;
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+}
+
+.home i {
+    margin-right: 10px !important;
+}
+
+.home a {
+    color: #000 !important;
+    font-size: 16px !important;
+    text-decoration: none !important;
+    position: relative !important;
+    font-weight: bolder !important;
+    transition: all 0.2s linear !important;
+}
+
+.home a:hover {
+    color: #ca1515 !important;
+}
+
+.home span {
+    color: rgb(29, 29, 29) !important;
+    font-size: 14px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    margin-left: 20px !important;
+}
+
+.home .sp {
+    margin-left: 20px !important;
+    font-size: 14px !important;
+    color: rgb(0, 0, 0) !important;
+    font-weight: lighter !important;
+}
