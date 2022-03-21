@@ -1,0 +1,29 @@
+.up {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background: #ca1515;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+    animation: bounce 2s ease-in-out infinite;
+    display: none;
+    z-index: 10;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
