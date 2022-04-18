@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     font-size: 1rem;
-    font-weigt: 400;
+    font-weight: 400;
     line-height: 1.5;
     color: #212529;
     text-align: left;
@@ -72,6 +72,12 @@
 .aaaa:hover {
     transition: all 0.2s linear;
     transform: translateY(15px)
+}
+
+.aa {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important;
 }
 
 .aa:hover {

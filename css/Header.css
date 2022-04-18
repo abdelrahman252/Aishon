@@ -10,14 +10,15 @@ body {
 }
 
 .ca {
-    margin-top: 20px;
-    background-color: #ca1515;
-    text-decoration: none;
-    color: white !important;
-    padding: 3px;
-    position: absolute;
-    bottom: 20px;
-    left: -3px;
+    top: -22% !important;
+}
+
+.no {
+    padding: 0 !important;
+}
+
+.no:hover {
+    color: #ca1515 !important;
 }
 
 .head {

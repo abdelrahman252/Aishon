@@ -7,7 +7,7 @@ body {
 .Container {
     width: 100%;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 5px;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
 }
@@ -21,11 +21,6 @@ body {
     position: relative;
 }
 
-.item1 {
-    grid-row: 1/3;
-    grid-column: 1/3;
-}
-
 .Container div h1 {
     position: absolute;
     font-family: Montserrat, sans-serif;
@@ -37,7 +32,7 @@ body {
 
 .item1 h1 {
     position: absolute;
-    font-family: Cookie, cursive !important;
+    font-family: Brush Script MT, Brush Script Std, cursive !important;
     top: 20% !important;
     left: 10% !important;
     font-size: 70px !important;
@@ -428,6 +423,13 @@ body {
     .gift-img img {
         margin-bottom: 0;
         width: 480px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gift-img img {
+        margin-bottom: 0;
+        width: 600px;
     }
 }
 

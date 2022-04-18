@@ -2,10 +2,17 @@
     box-sizing: border-box;
 }
 
-.home {
-    font-family: "Montserrat", sans-serif;
-    margin-top: 40px;
-    margin-bottom: 40px;
+table {
+    background-color: black;
+    color: #ca1515 !important;
+}
+
+th {
+    color: #ca1515 !important;
+}
+
+tr {
+    background: black;
 }
 
 .home i {
