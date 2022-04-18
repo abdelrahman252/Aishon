@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/up.css">
     <link rel="stylesheet" href="css/search.css">
+    <link rel="shortcut icon" href="A.png" />
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -39,7 +40,7 @@
                         <a class="nav-link " aria-current="page" href="Home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="womens.html">WOMEN' S</a>
+                        <a class="nav-link" href="womens.html">WOMEN'S</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="men.html">MEN'S</a>
@@ -48,7 +49,7 @@
                         <a class="nav-link" href="SHOP.html">SHOP</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link ">pages</a>
+                        <a href="#" class="nav-link">pages</a>
                         <div class="sub">
                             <ul>
                                 <li><a href="products-detalis.html"> Product Detalis</a></li>
@@ -85,7 +86,14 @@
                         </a>
                     </li>
                     <li>
-                        <a href="Cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+                        <a href="Cart.html" type="button" class="btn no position-relative">
+                            <i class="fas fa-shopping-bag "></i>
+                            <span class="position-absolute start-0 translate-middle badge rounded-pill bg-danger ca text-white ">
+
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </a>
+                    </li>
                     <li>
                         <a href=""><i class="far fa-heart"></i></a></li>
 
@@ -93,7 +101,6 @@
             </div>
         </div>
     </nav>
-
 
     <div class="container">
         <div class="bg-white rounded d-flex align-items-center justify-content-between" id="header"> <button class="btn btn-hide text-uppercase" type="button" data-toggle="collapse" data-target="#filterbar" aria-expanded="false" aria-controls="filterbar" id="filter-btn" onclick="changeBtnTxt()"> <span class="fas fa-angle-left" id="filter-angle"></span> <span id="btn-txt">Hide filters</span> </button>
@@ -347,59 +354,52 @@
             </div>
         </div>
     </div>
-    <div>
-
-        <div class="instgram">
-            <div class="roww">
-                <div class="coll">
-                    <div class="linkk text-center">
-                        <p><i class="fab fa-instagram "></i></p>
-                        <a href="# ">@ aishon_shop</a>
-                    </div>
-                    <img src="img/insta-1.jpg.webp ">
-
+    <div class="instgram ">
+        <div class="roww row mx-0 ">
+            <div class="coll col-lg-2 col-12">
+                <div class="linkk text-center">
+                    <p><i class="fab fa-instagram "></i></p>
+                    <a href="# ">@ aishon_shop</a>
                 </div>
-                <div class="coll">
-                    <div class="linkk text-center">
-                        <p><i class="fab fa-instagram "></i></p>
-                        <a href="# ">@ aishon_shop</a>
-                    </div>
-                    <img src="img/insta-2.jpg.webp ">
-                </div>
-                <div class="coll">
-                    <div class="linkk text-center">
-                        <p><i class="fab fa-instagram "></i></p>
-                        <a href="# ">@ aishon_shop</a>
-                    </div>
-                    <img src="img/insta-3.jpg.webp ">
-                </div>
-                <div class="coll">
-                    <div class="linkk text-center">
-                        <p><i class="fab fa-instagram "></i></p>
-                        <a href="# ">@ aishon_shop</a>
-                    </div>
-                    <img src="img/insta-4.jpg.webp ">
-                </div>
-
-                <div class="coll">
-                    <div class="linkk text-center">
-                        <p><i class="fab fa-instagram "></i></p>
-                        <a href="# ">@ aishon_shop</a>
-                    </div>
-                    <img src="img/insta-5.jpg.webp ">
-                </div>
-
-
-                <div class="coll">
-                    <div class="linkk text-center">
-                        <p><i class="fab fa-instagram "></i></p>
-                        <a href="# ">@ aishon_shop</a>
-                    </div>
-                    <img src="img/insta-6.jpg.webp ">
-                </div>
+                <img src="img/insta-1.jpg.webp ">
             </div>
-
+            <div class="coll col-lg-2 col-12">
+                <div class="linkk text-center">
+                    <p><i class="fab fa-instagram "></i></p>
+                    <a href="# ">@ aishon_shop</a>
+                </div>
+                <img src="img/insta-2.jpg.webp ">
+            </div>
+            <div class="coll col-lg-2 col-12">
+                <div class="linkk text-center">
+                    <p><i class="fab fa-instagram "></i></p>
+                    <a href="# ">@ aishon_shop</a>
+                </div>
+                <img src="img/insta-3.jpg.webp ">
+            </div>
+            <div class="coll col-lg-2 col-12">
+                <div class="linkk text-center">
+                    <p><i class="fab fa-instagram "></i></p>
+                    <a href="# ">@ aishon_shop</a>
+                </div>
+                <img src="img/insta-4.jpg.webp ">
+            </div>
+            <div class="coll col-lg-2 col-12">
+                <div class="linkk text-center">
+                    <p><i class="fab fa-instagram "></i></p>
+                    <a href="# ">@ aishon_shop</a>
+                </div>
+                <img src="img/insta-5.jpg.webp ">
+            </div>
+            <div class="coll col-lg-2 col-12">
+                <div class="linkk text-center">
+                    <p><i class="fab fa-instagram "></i></p>
+                    <a href="# ">@ aishon_shop</a>
+                </div>
+                <img src="img/insta-6.jpg.webp ">
+            </div>
         </div>
+
     </div>
     <!-- FOOTER -->
     <footer class="w-100 py-4 flex-shrink-0" style="background-color: transparent;">
